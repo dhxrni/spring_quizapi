@@ -1,1 +1,2 @@
-# spring_quizapi
+Spring Boot-based RESTful API designed to manage quiz-related operations. Built using Maven for dependency management and MySQL for the database, the API supports CRUD operations for quizzes, questions, and users. It allows for seamless integration with various clients and tools such as Postman for testing. All the source files, including configurations and code, are organized and zipped for easy access and distribution.
+Password- spring_quizapi

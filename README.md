@@ -1,2 +1,36 @@
-Spring Boot-based RESTful API designed to manage quiz-related operations. Built using Maven for dependency management and MySQL for the database, the API supports CRUD operations for quizzes, questions, and users. It allows for seamless integration with various clients and tools such as Postman for testing. All the source files, including configurations and code, are organized and zipped for easy access and distribution.
-Password- spring_quizapi
+# 🧠 Spring Boot Quiz API
+
+> RESTful backend service for managing quizzes, questions, and user responses using Spring Boot.
+
+---
+
+## 🎯 Problem
+
+Quiz systems require structured question management, scoring logic, and scalable APIs to support multiple users and topics.
+
+---
+
+## 💡 Solution
+
+This project provides a backend API that:
+- Manages quiz questions and categories  
+- Allows users to attempt quizzes  
+- Evaluates responses and calculates scores  
+- Supports scalable REST-based architecture  
+
+---
+
+## ⚙️ Features
+
+- 📝 Create and manage quiz questions  
+- 📚 Categorize questions by topic  
+- ▶️ Start and attempt quizzes  
+- ✅ Evaluate answers and calculate scores  
+- 🔄 CRUD operations for quiz management  
+
+---
+
+## 🏗️ Architecture
+
+```text
+Client → Controller → Service → Repository → Database
